@@ -9,4 +9,17 @@ public class Hoofdmenu : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void loadscen()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void loadgoodend()
+    {
+        SceneManager.LoadScene(6);
+    }
+    public void Home
+    ()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

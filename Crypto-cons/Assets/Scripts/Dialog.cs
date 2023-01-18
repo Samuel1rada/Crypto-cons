@@ -13,25 +13,19 @@ public class Dialog : MonoBehaviour
     public float Typingspeed;
 
     public GameObject continuebutton;
-    public GameObject Panel1;
-    public GameObject Panel0;
 
     void Start()
     {
         StartCoroutine(Type());
-        continuebutton.SetActive(false);
-        Panel1.SetActive(false);
-        Panel0.SetActive(true);
+        continuebutton.SetActive(true);
+
     }
 
     void Update()
     {
         if (textdisplay.text == sentences[index])
         {
-            if (Panel1.activeSelf== false)
-            {
-                continuebutton.SetActive(true);
-            }
+          continuebutton.SetActive(true);
             
         }
     }
@@ -61,18 +55,7 @@ public class Dialog : MonoBehaviour
         {
             textdisplay.text = "";
         }
-        Panel1.SetActive(true);
+    
     }
-    public void Panel1Nextscene()
-    {
-        if (index > 1) 
-        {
-            Panel1.SetActive(true);
-        }
-        
-        if (Panel0.activeSelf== false)
-        {
-            continuebutton.SetActive(false);
-        }
-    }
+
 }
