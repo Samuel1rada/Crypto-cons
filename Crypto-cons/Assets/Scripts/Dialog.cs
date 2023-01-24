@@ -13,20 +13,24 @@ public class Dialog : MonoBehaviour
     public float Typingspeed;
 
     public GameObject continuebutton;
+    public GameObject Panel1;
+    public GameObject Panel0;
 
     void Start()
     {
         StartCoroutine(Type());
-        continuebutton.SetActive(true);
+        continuebutton.SetActive(false);
 
+        Debug.Log("Index = " + index);
+        Debug.Log("sentences = " + sentences.Length);
+        Debug.Log("textdisplay.text" + textdisplay.text);
     }
 
     void Update()
     {
         if (textdisplay.text == sentences[index])
         {
-          continuebutton.SetActive(true);
-            
+            continuebutton.SetActive(true);
         }
     }
     IEnumerator Type()
@@ -41,21 +45,31 @@ public class Dialog : MonoBehaviour
     public void Nextsentence()
     {
         continuebutton.SetActive(false);
-    
-            Debug.Log("Index = " + index);
 
-        if (index < sentences.Length - 1)
+        Debug.Log("Index = " + index);
+        Debug.Log("sentences = " + sentences.Length);
+        if (index < sentences.Length)
         {
             index++;
             textdisplay.text = "";
             StartCoroutine(Type());
-            
+
         }
         else
         {
             textdisplay.text = "";
         }
-    
-    }
 
+        if (index == sentences.Length)
+        {
+            if (Panel0.activeInHierarchy == true)
+            {
+                Panel1.SetActive(true);
+            }
+            else
+            {
+                Panel1.SetActive(false);
+            }
+        }
+    }
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -577,6 +577,8 @@ MonoBehaviour:
   - ugh..? uuh.. Ja.
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &81664835
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,6 +1851,8 @@ MonoBehaviour:
     Hij had zelfs nog heel wat geld over
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &303832316
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,6 +2183,8 @@ MonoBehaviour:
     had gevonden om je schulden af te betalen
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &325993340
 GameObject:
   m_ObjectHideFlags: 0
@@ -5065,6 +5071,8 @@ MonoBehaviour:
     worden
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &652441549
 GameObject:
   m_ObjectHideFlags: 0
@@ -5391,6 +5399,8 @@ MonoBehaviour:
   - Richard? we gaan toch wel met behulp van de GKB je schulden nog afbetalen
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &711785117
 GameObject:
   m_ObjectHideFlags: 0
@@ -6372,6 +6382,8 @@ MonoBehaviour:
   - Laten we met een kleine hoeveelheid beginnen
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &963024930
 GameObject:
   m_ObjectHideFlags: 0
@@ -6421,6 +6433,8 @@ MonoBehaviour:
   - Oke, maar hoeveel moet ik dan investeren
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &965236596
 GameObject:
   m_ObjectHideFlags: 0
@@ -7227,6 +7241,8 @@ MonoBehaviour:
   - oke, Richard ik zou in deze en in deze crypto coin een beetje investeren
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &1234021561
 GameObject:
   m_ObjectHideFlags: 0
@@ -7616,6 +7632,8 @@ MonoBehaviour:
     euro waard aan crypto
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &1267751292
 GameObject:
   m_ObjectHideFlags: 0
@@ -7674,7 +7692,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: end
+  m_text: Goede einde
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
   m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
@@ -7683,8 +7701,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7701,8 +7719,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 400
-  m_fontSizeBase: 400
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8005,7 +8023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1371702815
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8975,6 +8993,8 @@ MonoBehaviour:
   - Richard? Waar heb ja dat pak vandaan
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &1668346772
 GameObject:
   m_ObjectHideFlags: 0
@@ -9391,6 +9411,8 @@ MonoBehaviour:
   - 'Oke, Dan doen we dat '
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &1735509162
 GameObject:
   m_ObjectHideFlags: 0
@@ -9440,6 +9462,8 @@ MonoBehaviour:
   - HA HA!!  Maak je er maar niet druk om. Ik heb nog genoeg geld over.
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &1749026110
 GameObject:
   m_ObjectHideFlags: 0
@@ -11320,6 +11344,8 @@ MonoBehaviour:
   - 25000 euro! Denk eens wat ik daar allemaal van kan kopen
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!1 &2056249955
 GameObject:
   m_ObjectHideFlags: 0
@@ -11337,7 +11363,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2056249956
 RectTransform:
   m_ObjectHideFlags: 0
