@@ -17,9 +17,12 @@ public class Hoofdmenu : MonoBehaviour
     {
         SceneManager.LoadScene(6);
     }
-    public void Home
-    ()
+    public void Home()
     {
         SceneManager.LoadScene(0);
+    }
+    public void Credits()
+    {
+        SceneManager.LoadScene(7);
     }
 }

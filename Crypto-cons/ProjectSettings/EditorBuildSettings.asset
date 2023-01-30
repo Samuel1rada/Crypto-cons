@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/goodend.unity
     guid: 75d86dc3cf2d41847943a6606348348c
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 14595ed284d53d843817c994814ec3c4
   m_configObjects: {}
