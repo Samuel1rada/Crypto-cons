@@ -1663,7 +1663,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 265, y: -164}
+  m_AnchoredPosition: {x: 234, y: -185}
   m_SizeDelta: {x: 289.6989, y: 81.1629}
   m_Pivot: {x: 0.3870155, y: 0.49999994}
 --- !u!114 &405839221
@@ -1742,7 +1742,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Continue
+  m_text: Doorgaan
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
@@ -1805,7 +1805,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -1.7397766, w: 0}
+  m_margin: {x: 0, y: 0, z: -20.402863, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3755,10 +3755,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textdisplay: {fileID: 1440848823}
   sentences:
-  - 'Welkom. In dit visual-novel beleef je een stukje van richards leven. vindt uit
+  - 'Welkom. In dit visual-novel beleef je een stukje van Richards leven. vindt uit
     of hij het hoogte punt van rijkdom haalt, of alles zal verliezen '
   Typingspeed: 0.02
   continuebutton: {fileID: 405839219}
+  Panel1: {fileID: 0}
+  Panel0: {fileID: 0}
 --- !u!4 &958634343
 Transform:
   m_ObjectHideFlags: 0

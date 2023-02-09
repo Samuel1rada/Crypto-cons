@@ -1320,7 +1320,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &220132616
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6987,7 +6987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1587213756
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7450,7 +7450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1750447094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7750,7 +7750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textdisplay: {fileID: 1406588675}
   sentences:
-  - oh, Richard ik had je het toch zo gezecht
+  - Oh Richard, ik had je het toch zo gezegt
   Typingspeed: 0.02
   continuebutton: {fileID: 0}
   Panel1: {fileID: 0}
